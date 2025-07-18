@@ -43,3 +43,41 @@ const person={name:"slomo",
     hobbies:["reading", "gaming", "coding"]
 }
 console.log(person)
+
+const student ={
+    name: "peter",
+    surname: "parker",
+    age: 25,
+    location: "new york",
+    sex: "male",
+}
+// accessing object properties . notation
+console.log(student.name)
+console.log(student.surname)
+console.log(student.age)
+console.log(student.location)
+console.log(student.sex) 
+
+// accessing object properties [] notation
+console.log(student["name"])
+console.log(student["surname"])
+console.log(student["age"])
+console.log(student["location"])
+console.log(student["sex"])
+
+// modefiying object properties
+student.age = 26
+console.log(student)
+
+student["age"] = 26
+console.log(student)
+
+student.location = "los angeles"
+console.log(student)
+
+let firstName = "john";
+let greeting = "Hello, my name is" + firstName + "!";
+console.log(greeting)
+
+
+
