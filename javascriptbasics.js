@@ -75,9 +75,62 @@ console.log(student)
 student.location = "los angeles"
 console.log(student)
 
+// string concatenation
 let firstName = "john";
 let greeting = "Hello, my name is" + firstName + "!";
 console.log(greeting)
 
+// Increment operators
+// Post-increment
+let x = 5;
+x++;
+console.log(x); // Output: 6
+
+// Pre-increment
+let y = 10;
+console.log(y++);
+console.log(y); // Output: 11
+console.log(++y); // Output: 12
+console.log(y); // Output: 12 
+
+// operators and expresions
+let a = 10;
+let b = 5;
+console.log(a+b);
+let x = 50;
+let y = 40;
+console.log(x-y)
+
+let c =100;
+let d =50;
+console.log(c/d)
+
+let t=6;
+let u=4;
+console.log(t*u)
+
+// comperison operators
+let w = 8;
+console.log(w==10)
+console.log(w=="8")
+console.log(w==="8")
+
+let q = 30;
+let p = 25;
+console.log(q>p)
+console.log(q<p)
+
+// logical operators
+console.log(q>p && p>q)
+console.log(q>p && q<p)
+
+const r =8;
+const z = 7
+console.log(r>z || z>r)
+
+const a = 20;
+console.log(a !== 50);
+const b = 50;
+console.log(b !== 50); 
 
 
