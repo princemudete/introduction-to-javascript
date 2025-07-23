@@ -1,3 +1,4 @@
+// if... else if ...else statement
 let score = parseInt(prompt("Enter your score"))
 if (score >= 90){
     alert("Grade: A")
@@ -7,4 +8,6 @@ if (score >= 90){
    alert("Grade: C")
 }else if (score >= 60){
     alert("Grade: D")
+}else {
+    alert("Grade: F")
 }
